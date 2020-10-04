@@ -321,3 +321,189 @@ input[type=submit]:hover{
 .lienCarte{
     margin: 15px 0;
 }
+/*ACTIVITES*/
+.activites{
+    margin-bottom: 62px;
+}
+.conteneurActivites{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 446px;
+    margin-top: 24px;
+}
+.carteActivites{
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+}
+.imgActivite{
+    width: 302px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.carteActivites h4{
+    padding: 17px 22px;
+    margin: 0;
+}
+.carteActivites:hover{
+    box-shadow: none;
+}
+footer{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.contenuFooter{
+    max-width: 1340px;
+    margin: auto;
+    display: flex;
+}
+.contenuFooter div{
+    margin-right: 228px;
+    padding-bottom: 29px;
+}
+footer h3{
+    padding: 46px 0 9px 0;
+}
+li{
+    font-size: 1.06rem;
+    padding: 9px 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+/*RESPONSIVE*/
+@media all and (max-width: 1200px){
+    /*HEADER*/
+    header img, header span{
+        padding: 0 !important;
+    }
+    header{
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    header img{
+        margin-left: 20px;
+    }
+    nav{
+        flex-basis: 100%;
+        order: 2;
+        display: flex;
+    }
+    nav a{
+        width: 50%;
+        text-align: center;
+        padding: 16px 0;
+        border-top: none;
+        border-bottom: 3px solid #e0dede;
+    }
+    header span{
+        order: 1;
+        margin-right: 20px;
+    }
+    .titreSoustitre{
+        order: 3;
+        margin: 20px 20px;
+    }
+    /*SECTION RECHERCHE*/
+    .champRechercher{
+        margin: 0 20px 30px 20px;
+    }
+    input[type=search]{
+        width: auto;
+    }
+    .textRecherche{
+        display: none;
+    }
+    .iconeRecherche{
+        display: block;
+        width: 51px;
+        height: 51px;
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: #0065FC;
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .iconeRecherche:hover{
+        color: #0065FC;
+        background-color: white;
+        border: 1px solid #e0dfdf;
+        cursor: pointer;
+    }
+    .filtres{
+        padding: 0 10px 0 20px;
+    }
+    .filtres button{
+        margin: 0 10px 12px 0;
+        font-size: 0.9rem;
+    }
+    .filtres h3{
+        flex-basis: 100%;
+    }
+    /*SECTION RESULTATS*/
+    small{
+        margin: 0 20px;
+    }
+    .blockResultats{
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+    .resultatsPopulaires{
+        width: auto;
+        margin: 0;
+        border-radius: 0;
+    }
+    .resultatsPopulaires h2{
+        padding-bottom: 26px;
+    }
+    .resultatsPopulaires .conteneurCarte{
+        margin: 0 20px;
+    }
+    .resultatsPopulaires .lienCarte{
+        margin: 5px 0;
+    }
+    .resultatsPrincipaux{
+        background: none;
+    }
+    .resultatsPrincipaux h2{
+        padding: 0;
+        margin-left: 20px;
+    }
+    .afficherPlus{
+        padding: 0;
+        margin-left: 20px;
+    }
+    .imgPrincipal{
+        width: 326px;
+        height: 114px;
+    }
+    .resultatsPrincipaux .lienCarte{
+        margin: 6px 0;
+    }
+    /*SECTION ACTIVITES*/
+    .activites h2{
+        padding-left: 20px;
+    }
+    .conteneurActivites{
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+    }
+    .carteActivites h4{
+        padding: 16.5px 22px;
+    }
+    .imgActivite{
+        width: 334px;
+        height: 134px !important;
+    }
+    .lienCarteActivites{
+        margin: 12px 0;
+    }
