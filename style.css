@@ -208,3 +208,116 @@ input[type=submit]:hover{
     background-color: #DEEBFF;
     color: #0065FC;
 }
+/*RESULTATS*/
+.resultats{
+    margin-bottom: 60px;
+}
+.resultats small{
+    font-size: 0.75rem;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+}
+.resultats .icone{
+    height: 22px;
+    width: 22px;
+    color: #0065FC;
+    background-color: #F2F2F2;
+    border: 1px solid #e4dede;
+    border-radius: 50px;
+    margin-right: 12px;
+}
+.blockResultats{
+    display: flex;
+    justify-content: space-between;
+    max-height: 626px;
+}
+.resultatsPrincipaux{
+    display: flex;
+    flex-direction: column;
+    max-width: 880px;
+    padding: 40px 0;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+.resultatsPrincipaux h2, .afficherPlus{
+    padding-left: 40px;
+}
+.afficherPlus{
+    font-size: 1.06rem;
+    font-weight: bold;
+}
+.resultatsPopulaires{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    padding: 40px 0;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+.resultatsPopulaires .fa-chart-line{
+    margin-left: 118px;
+}
+.resultatsPopulaires .conteneurCarte{
+    flex-direction: column;
+}
+.conteneurCarte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.carte{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+}
+.carte h4{
+    padding-left: 12px;
+    margin: 2px 0 0 0;
+}
+.carte p{
+    font-size: 0.8rem;
+    padding-left: 12px;
+    margin: 6px 0;
+}
+.carte .note{
+    padding-left: 12px;
+    color: #0065FC;
+}
+.carte:hover{
+    box-shadow: none;
+}
+.cartePrincipal{
+    padding: 5px 5px 10px 5px;
+}
+.imgPrincipal{
+    width: 236px;
+    height: 114px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cartePopulaire{
+    display: flex;
+    width: 334px;
+    height: 134px;
+    padding: 5px;
+}
+.imgPopulaire{
+    width: 127px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.texteCarte p{
+    margin-bottom: 35%;
+}
+.lienCarte{
+    margin: 15px 0;
+}
