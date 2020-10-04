@@ -87,3 +87,37 @@ a:hover{
     background-image: url(../abinahabib_2_04092020/img/activites/small/parc_longchamp.jpg);
     height: 154px;
 }
+/*HEADER*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+header img{
+    padding: 48px 0;
+}
+nav{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;   
+}
+nav a{
+    width: 162px;
+    text-align: center;
+    padding-top: 48px;
+    border-top: 3px solid #F2F2F2;
+}
+nav a:hover{
+    border-color: #0065FC;
+}
+header span{
+    padding-right: 28px;
+    padding-top: 48px;
+}
+header span a{
+    color: #0065FC;
+    font-weight: bold;
+}
+.titreSoustitre{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
