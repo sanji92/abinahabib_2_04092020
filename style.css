@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+body, button, input{
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 1.25rem;
+    margin: 0;
+}
+h3{
+    font-size: 1.06rem;
+    font-weight: bold;
+}
+h4{
+    font-size: 1rem;
+    font-weight: bold;
+}
+p{
+    font-size: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #0065FC;
+}
+.greyStar{
+    color: #F2F2F2;
+}
+/*IMAGES*/
+.cannebiere{
+    background-image: url(../abinahabib_2_04092020/img/hebergements/small/auberge_cannebiere.jpg);
+    height: 140px;
+}
+.hotelPort{
+    background-image: url(../abinahabib_2_04092020/img/hebergements/small/hotel_port.jpg);
+}
+.hotelMouettes{
+    background-image:url(../abinahabib_2_04092020/img/hebergements/small/hotel_mouette.jpg);
+}
+.hotelMer{
+    background-image:url(../abinahabib_2_04092020/img/hebergements/small/hotel_mer.jpg);
+}
+.aubergePanier{
+    background-image:url(../abinahabib_2_04092020/img/hebergements/small/auberge_panier.jpg);
+}
+.hotelAmina{
+    background-image:url(../abinahabib_2_04092020/img/hebergements/small/hotel_amina.jpg);
+}
+.hotelSoleil{
+    background-image:url(../abinahabib_2_04092020/img/hebergements/small/hotel_soleil_matin.jpg);
+}
+.chambreCoeurEau{
+    background-image:url(../abinahabib_2_04092020/img/hebergements/small/chambre_au_coeur_eau.jpg);
+}
+.hotelBleuBlanc{
+    background-image:url(../abinahabib_2_04092020/img/hebergements/small/hotel_bleu_blanc.jpg);
+}
+
+.activitePort{
+    background-image: url(../abinahabib_2_04092020/img/activites/small/vieux_port.jpg);
+    height: 393px;
+}
+.activitePomegues{
+    background-image: url(../abinahabib_2_04092020/img/activites/small/fort_de_pomegues.jpg);
+    height: 180px;
+}
+.activiteFrioul{
+    background-image: url(../abinahabib_2_04092020//img/activites/small/ile_du_frioul.jpg);
+    height: 109px;
+}
+.activiteCalanques{
+    background-image: url(../abinahabib_2_04092020/img/activites/small/parc_des_calanques.jpg);
+    height: 393px;
+}
+.activiteNotreDame{
+    background-image: url(../abinahabib_2_04092020/img/activites/small/notre_dame_de_la_garde.jpg);
+    height: 140px;
+}
+.activiteLongchamp{
+    background-image: url(../abinahabib_2_04092020/img/activites/small/parc_longchamp.jpg);
+    height: 154px;
+}
